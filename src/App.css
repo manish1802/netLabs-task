@@ -1,0 +1,103 @@
+/* App.css */
+.sidebar-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  height: 100vh;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.pagination-controls select {
+  margin-left: 10px;
+}
+
+.Chart_container{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 25px;
+  border-radius: 20px;
+}
+.card{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none !important;
+}
+
+/* sidebar layout */
+.sidebar {
+  min-height: 100vh;
+}
+.navbar-brand{
+  color: #243860 !important;
+}
+.bg-primary.navbar {
+  background-color: #fff !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.bg-light.sidebar {
+  background-color: #435590 !important;
+}
+.bg-light.sidebar a {
+  color: #fff !important;
+}
+/* Active link styling in the sidebar */
+.bg-light.sidebar .nav-link.active {
+  background-color: #243860;
+  border-radius: 5px;
+  color: #fff !important;
+}
+
+.bg-light.sidebar a:hover {
+  background-color: #243860;
+  border-radius: 5px;
+  color: #fff !important;
+}
+.bg-light.offcanvas-lg  {
+  background-color: #435590 !important;
+}
+.bg-light.offcanvas-lg a {
+  color: #fff !important;
+}
+.offcanvas-title{
+  color: #fff !important;
+
+}
+/* Active link styling in the sidebar */
+.bg-light.offcanvas-lg .nav-link.active {
+  background-color: #243860;
+  border-radius: 5px;
+  color: #fff !important;
+}
+
+.bg-light.offcanvas-lg a:hover {
+  background-color: #243860;
+  border-radius: 5px;
+  color: #fff !important;
+}
+.logo_img{
+  height: 100px;
+  border-radius: 50px;
+  margin: auto;
+}
+.table_container{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 25px;
+  border-radius: 5px;
+}
+.table_box{
+  overflow: auto;
+}
+.table_box table thead th{
+  white-space: nowrap;
+}
+.table_header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
